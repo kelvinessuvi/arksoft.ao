@@ -1,1 +1,0 @@
-<?php    $nome = $_POST['Nome'];    $email = $_POST['Email'];    $telefone = $_POST['Telefone'];    $assunto = $_POST['Assunto'];    $mensagem = $_POST['Mensagem'];    $emaildestino = "geral@arksoft.ao";        include('class.phpmailer.php');   ?>
