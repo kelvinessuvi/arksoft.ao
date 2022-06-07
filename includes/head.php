@@ -86,11 +86,10 @@
 
                 <li><a class="fa fa-facebook" href="https://www.facebook.com/arksoftangola" title="Facebook" target="_blank"></a></li>
 
-                <li><a class="fa fa-linkedin" href="https://www.linkedin.com/arksoftangola" title="LinkedIn" target="_blank"></a></li>
+                <li><a class="fa fa-linkedin" href="https://www.linkedin.com/company/arksoftangola" title="LinkedIn" target="_blank"></a></li>
 
                 <li><a class="fa fa-instagram" href="https://www.instagram.com/arksoftangola" title="Instagram" target="_blank"></a></li>
 
-                <li><a class="fa fa-youtube" href="https://www.youtube.com/arksoftangola" title="Instagram" target="_blank"></a></li>
 
               </ul>
 
