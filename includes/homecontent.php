@@ -597,8 +597,8 @@
 
           <div class="tp-static-layers"></div>
 
-        </div>
 
+        </div>
       </div>
 
     </div>
@@ -643,7 +643,7 @@
 
           <div class="center">
 
-            <div class=""> <img style="height: 73px;" src="img/Domain_48px.png" alt="#" /> </div>
+            <div class=""> <img style="height: 73px;" src="assets/img/Domain_48px.png" alt="#" /> </div>
 
           </div>
 
@@ -663,7 +663,7 @@
 
           <div class="center">
 
-            <div class="icon"> <img src="img/i4.png" alt="#" /> </div>
+            <div class="icon"> <img src="assets/img/i4.png" alt="#" /> </div>
 
           </div>
 
@@ -681,7 +681,7 @@
 
           <div class="center">
 
-            <div class="icon"> <img src="img/i2.png" alt="#" /> </div>
+            <div class="icon"> <img src="assets/img/i2.png" alt="#" /> </div>
 
           </div>
 
@@ -699,7 +699,7 @@
 
 Saber Mais</h4>
 
-     <a href="serviços.html"> <button action="serviços.html" style="background:#156c9d;border-radius: 10px;padding:0 0 0 0;font-size:19px;font-family:arial;color:White;" class="btn white_btn">Saber Mais</button>
+     <a href="page.php?page=servicos"> <button action="page.php?page=servicos" style="background:#156c9d;border-radius: 10px;padding:0 0 0 0;font-size:19px;font-family:arial;color:White;" class="btn white_btn">Saber Mais</button>
 
      </a>
 
@@ -741,7 +741,7 @@ Saber Mais</h4>
 
                   <div class="service_blog_inner">
 
-                    <div class="icon text_align_left"><img src="img/si1.png" alt="#"></div>
+                    <div class="icon text_align_left"><img src="assets/img/si1.png" alt="#"></div>
 
                     <h4 class="service-heading">Atendimento rápido</h4>
 
@@ -759,7 +759,7 @@ Saber Mais</h4>
 
                   <div class="service_blog_inner">
 
-                    <div class="icon text_align_left"><img src="img/si2.png" alt="#"></div>
+                    <div class="icon text_align_left"><img src="assets/img/si2.png" alt="#"></div>
 
                     <h4 class="service-heading">Pagamentos seguros</h4>
 
@@ -777,7 +777,7 @@ Saber Mais</h4>
 
                   <div class="service_blog_inner">
 
-                    <div class="icon text_align_left"><img src="img/si3.png" alt="#"></div>
+                    <div class="icon text_align_left"><img src="assets/img/si3.png" alt="#"></div>
 
                     <h4 class="service-heading">Equipa experiente</h4>
 
@@ -795,7 +795,7 @@ Saber Mais</h4>
 
                   <div class="service_blog_inner">
 
-                    <div class="icon text_align_left"><img src="img/si4.png" alt="#"></div>
+                    <div class="icon text_align_left"><img src="assets/img/si4.png" alt="#"></div>
 
                     <h4 class="service-heading">Preços acessíveis</h4>
 
@@ -813,7 +813,7 @@ Saber Mais</h4>
 
                   <div class="service_blog_inner">
 
-                    <div class="icon text_align_left"><img src="img/si6.png" alt="#"></div>
+                    <div class="icon text_align_left"><img src="assets/img/si6.png" alt="#"></div>
 
                     <h4 class="service-heading">Serviço de qualidade</h4>
 
