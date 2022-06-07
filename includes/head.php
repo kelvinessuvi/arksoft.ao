@@ -44,8 +44,6 @@
 </head>
 <body id="default_theme">
   
-<div class="bg_load" style="background-color: #156c9d;"> <img class="loader_animation" src="/assets/img/logos/arksoft.png" alt="#" /> </div>
-
 <!--ÍNICIO DO CABEÇALHO-->
 
 <header id="default_header" class="header_style_1 fixed-header" style="z-index:2;background: #fff;box-shadow: 0 0 9px rgb(0, 0, 0);">
