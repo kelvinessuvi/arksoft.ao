@@ -100,7 +100,7 @@ Com uma equipa de profissionais jovens, experientes, criativos e capacitados, a 
 
       <div class="col-lg-6 col-md-6 col-sm-12 about_feature_img padding_right_0">
 
-        <div class="full text_align_center"> <img class="img-responsive" style="height: 100%;" src="img/nesa-by-makers-igur1ix0mqm-unsplash.jpg" alt="#" /> </div>
+        <div class="full text_align_center"> <img class="img-responsive" style="height: 100%;" src="assets/img/nesa-by-makers-igur1ix0mqm-unsplash.jpg" alt="#" /> </div>
 
       </div>
 

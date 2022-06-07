@@ -46,7 +46,7 @@
 
         <div class="full">
 
-          <div class="service_img"> <img class="img-responsive" src="img/Google-Website-Builder.jpg" height="247px" alt="#" /> </div>
+          <div class="service_img"> <img class="img-responsive" src="assets/img/Google-Website-Builder.jpg" height="247px" alt="#" /> </div>
 
           <div class="service_cont">
 
@@ -66,7 +66,7 @@
 
         <div class="full">
 
-          <div class="service_img"> <img class="img-responsive" src="img/302200-linked-content-post-satelite-como-deve-ser-a-coleta-de-dados-em-uma-empresa-770x515.jpg" height="247px" alt="#" /> </div>
+          <div class="service_img"> <img class="img-responsive" src="assets/img/302200-linked-content-post-satelite-como-deve-ser-a-coleta-de-dados-em-uma-empresa-770x515.jpg" height="247px" alt="#" /> </div>
 
           <div class="service_cont">
 
@@ -86,7 +86,7 @@
 
         <div class="full">
 
-          <div class="service_img"> <img class="img-responsive" src="img/database-design.png" height="247px" alt="#" /> </div>
+          <div class="service_img"> <img class="img-responsive" src="assets/img/database-design.png" height="247px" alt="#" /> </div>
 
           <div class="service_cont">
 
@@ -106,7 +106,7 @@
 
         <div class="full">
 
-          <div class="service_img"> <img class="img-responsive" src="img/white-switch.jpg" height="247px" alt="#" /> </div>
+          <div class="service_img"> <img class="img-responsive" src="assets/img/white-switch.jpg" height="247px" alt="#" /> </div>
 
           <div class="service_cont">
 
@@ -126,7 +126,7 @@
 
         <div class="full">
 
-          <div class="service_img"> <img class="img-responsive" src="img/iStock-984636634-1024x724.jpg" height="247px" alt="#" /> </div>
+          <div class="service_img"> <img class="img-responsive" src="assets/img/iStock-984636634-1024x724.jpg" height="247px" alt="#" /> </div>
 
           <div class="service_cont">
 
@@ -146,7 +146,7 @@
 
         <div class="full">
 
-          <div class="service_img"> <img class="img-responsive" src="img/Imagem-de-Serviço-Reparação-de-Computadores-900x400-SOS-PC.png" height="247px" alt="#" /> </div>
+          <div class="service_img"> <img class="img-responsive" src="assets/img/Imagem-de-Serviço-Reparação-de-Computadores-900x400-SOS-PC.png" height="247px" alt="#" /> </div>
 
           <div class="service_cont">
 
@@ -166,7 +166,7 @@
 
         <div class="full">
 
-          <div class="service_img"> <img class="img-responsive" src="img/empresa-instalacao-cameras-seguranca-sp-03.jpg" height="247px" alt="#" /> </div>
+          <div class="service_img"> <img class="img-responsive" src="assets/img/empresa-instalacao-cameras-seguranca-sp-03.jpg" height="247px" alt="#" /> </div>
 
           <div class="service_cont">
 
@@ -186,7 +186,7 @@
 
         <div class="full">
 
-          <div class="service_img"> <img class="img-responsive" src="img/sistema-de-telefonia-pabx-2.jpg" height="247px" alt="#" /> </div>
+          <div class="service_img"> <img class="img-responsive" src="assets/img/sistema-de-telefonia-pabx-2.jpg" height="247px" alt="#" /> </div>
 
           <div class="service_cont">
 
