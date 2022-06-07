@@ -25,6 +25,9 @@
     if($_GET['page'] == "feedback"){
         include 'includes/feedbackcontent.php';
     }
+    if($_GET['page'] == "contactos"){
+        include 'includes/contactocontent.php';
+    }
 
     
     include 'includes/footer.php';

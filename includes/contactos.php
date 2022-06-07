@@ -1,50 +1,22 @@
-<?php
-
-
-
-  session_start();
-
-
-
-?>
-
 <!DOCTYPE html>
-
-<html lang="pt">
-
-<head>
-
-<meta charset="utf-8">
-
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-
-<title>Arksoft Angola - Contactos</title>
-
-<meta name="description" content="Empresa angolana de prestação de serviços tecnológicos.">
-
-<meta name="author" content="ARKSOFT ANGOLA">
-
-<link rel="icon" href="images/logos/arksoft.png" type="image/png"/>
-
-<link rel="stylesheet" href="css/bootstrap.min.css" />
-
-<link rel="stylesheet" href="css/style.css" />
-
-<link rel="stylesheet" href="css/responsive.css" />
-
-<link rel="stylesheet" href="css/colors1.css" />
-
-<link rel="stylesheet" href="css/custom.css" />
-
-<link rel="stylesheet" href="css/animate.css" />
-
-<link rel='stylesheet' href='css/hizoom.css'>
-
-</head>
+  <html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>Arksoft Angola - Contactos</title>
+    <meta name="description" content="Empresa angolana de prestação de serviços tecnológicos.">
+    <meta name="author" content="ARKSOFT ANGOLA">
+    <link rel="icon" href="images/logos/arksoft.png" type="image/png"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/colors1.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel='stylesheet' href='css/hizoom.css'>
+  </head>
 
 <body id="default_theme" class="contact_us">
 
