@@ -26,7 +26,7 @@
 
               <li class="social-icon in"><a href="https://wwww.instagram.com/arksoftangola"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 
-              <li class="social-icon yt"><a href="https://www.youtube.com/arksoftangola"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+              <li class="social-icon yt"><a href="https://www.linkedin.com/company/arksoftangola"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 
             </ul>
 
@@ -42,15 +42,15 @@
 
             <ul class="footer-menu">
 
-              <li><a href="index.html"><i class="fa fa-angle-right"></i> Home</a></li>
+              <li><a href="index.php"><i class="fa fa-angle-right"></i> Home</a></li>
 
-              <li><a href="serviços.html"><i class="fa fa-angle-right"></i> Serviços</a></li>
+              <li><a href="page.php?page=servicos"><i class="fa fa-angle-right"></i> Serviços</a></li>
 
-              <li><a href="resocial.html"><i class="fa fa-angle-right"></i> Acção Social</a></li>
+              <li><a href="page.php?page=resocial"><i class="fa fa-angle-right"></i> Acção Social</a></li>
 
-              <li><a href="sobre.html"><i class="fa fa-angle-right"></i> Sobre Nós </a></li>
+              <li><a href="page.php?page=sobre"><i class="fa fa-angle-right"></i> Sobre Nós </a></li>
 
-              <li><a href="contactos.html"><i class="fa fa-angle-right"></i> Contactos</a></li>
+              <li><a href="page.php?page=contactos"><i class="fa fa-angle-right"></i> Contactos</a></li>
 
             </ul>
 

@@ -132,24 +132,51 @@
             <div id="navbar_menu">
 
               <ul class="first-ul">
+                <?php
 
-                <li> <a class="active hover" href="page.php?page=home">Home</a>
+                    $hover = "";
+                    $hover_s = "";
+                    $hover_a = "";
+                    $hover_r = "";
+                    $hover_b = "";
+                    $hover_c = "";
+                    if($_GET['page'] == "servicos"){
+                        $hover_s .="active";
+                    }
+                    if($_GET['page'] == "home"){
+                        $hover .="active";
+                    }
+                    if($_GET['page'] == "resocial"){
+                        $hover_a .="active";
+                    }
+                    if($_GET['page'] == "recruit"){
+                        $hover_r .="active";
+                    }
+                    if($_GET['page'] == "sobre"){
+                        $hover_b .="active";
+                    }
+                    if($_GET['page'] == "contactos"){
+                        $hover_c .="active";
+                    }
+                
+                ?>
+                <li> <a class="<?=$hover?>" href="page.php?page=home">Home</a>
 
                 </li>
 
-                <li><a class="hover" href="page.php?page=servicos">Serviços</a></li>
+                <li><a class="<?=$hover_s?> hover" href="page.php?page=servicos">Serviços</a></li>
 
-                <li><a class="hover" href="page.php?page=resocial">Acção Social</a></li>
+                <li><a class="<?=$hover_a?> hover" href="page.php?page=resocial">Acção Social</a></li>
 
                 <li><a href="#">Softwares</a></li>
 
-                <li><a href="page.php?page=recruit">Recrutamento</a></li>
+                <li><a class="<?=$hover_r?>" href="page.php?page=recruit">Recrutamento</a></li>
 
-                <li> <a class="hover" href="page.php?page=sobre">Sobre Nós</a>
+                <li> <a class="<?=$hover_b?> hover" href="page.php?page=sobre">Sobre Nós</a>
 
                 </li>
 
-                <li> <a class="hover" href="page.php?page=contactos">Contactos</a>
+                <li> <a class="<?=$hover_c?> hover" href="page.php?page=contactos">Contactos</a>
 
                 </li>
 

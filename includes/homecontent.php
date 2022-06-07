@@ -592,19 +592,12 @@
                               style="z-index: 7; white-space: nowrap;"><br><br> <button class="btn btn-default" style="background:rgb(3, 101, 247);">Abrir</button></div>
 
             </li>-->
-
           </ul>
-
           <div class="tp-static-layers"></div>
-
-
         </div>
       </div>
-
     </div>
-
   </div>
-
 </div>
 
 <!-- FIM DO SLIDERSHOW -->
