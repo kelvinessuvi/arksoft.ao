@@ -44,7 +44,7 @@
 </head>
 <body id="default_theme">
   
-<div class="bg_load" style="background-color: #156c9d;"> <img class="loader_animation" src="img/logos/arksoft.png" alt="#" /> </div>
+<div class="bg_load" style="background-color: #156c9d;"> <img class="loader_animation" src="/assets/img/logos/arksoft.png" alt="#" /> </div>
 
 <!--ÍNICIO DO CABEÇALHO-->
 
@@ -100,7 +100,7 @@
 
           <div class="float-right">
 
-            <div class="make_appo"> <a class="btn white_btn" href="feedback.html">Avalie-nos</a> </div>
+            <div class="make_appo"> <a class="btn white_btn" href="page.php?page=feedback">Avalie-nos</a> </div>
 
           </div>
 
@@ -124,7 +124,7 @@
 
         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
 
-          <div class="logo"> <a href="index.html"><img src="assets/img/logos/logo.png" alt="arksoft" /></a> </div>
+          <div class="logo"> <a href="index.php"><img src="assets/img/logos/logo.png" alt="arksoft" /></a> </div>
 -
         </div>
 
