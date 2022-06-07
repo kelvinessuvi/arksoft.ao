@@ -48,7 +48,7 @@
 
             <div class="full">
 
-              <img src="img/Projecto Arche.JPG" style="height: 320px;width:100%;">
+              <img src="assets/img/Projecto Arche.JPG" style="height: 320px;width:100%;">
 
               <p style="text-align:justify;font-size: 19px;color:black;width: 100%;"><br> 
 
@@ -88,9 +88,9 @@
 
               <ul>
 
-                <img src="img/received_651489268837827.jpeg" style="height: 400px;width: 100%;">
+                <img src="assets/img/received_651489268837827.jpeg" style="height: 400px;width: 100%;">
 
-                <img src="img/received_791144048357785.jpeg" style="height: 400px;width: 100%;margin-top: 10px;">
+                <img src="assets/img/received_791144048357785.jpeg" style="height: 400px;width: 100%;margin-top: 10px;">
 
                 
 
