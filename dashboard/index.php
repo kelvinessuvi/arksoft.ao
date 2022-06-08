@@ -7,12 +7,12 @@
     if(isset($_POST['email'])){
         $email = $_POST['email'];
         $senha = $_POST['senha'];
-
         $verifica = mysqli_query($conexao,"select * from admin WHERE email_admin = '$email' AND  senha_admin = '$senha'");
 
         if(mysqli_num_rows($verifica) <= 0){
 
             echo "<script>alert('Email ou password errado');</script>";
+            echo $senha;
 
         }
         else{
