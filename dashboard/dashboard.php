@@ -292,7 +292,7 @@
                                             <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#"><?=$nome_admin?></a>
+                                            <a class="js-acc-btn" href="#"><?=utf8_encode($nome_admin)?></a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
@@ -303,7 +303,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#"><?=$nome_admin?></a>
+                                                        <a href="#"><?=utf8_encode($nome_admin)?></a>
                                                     </h5>
                                                     <span class="email"></span>
                                                 </div>
