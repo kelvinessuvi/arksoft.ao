@@ -8,7 +8,7 @@
         $email = $_POST['email'];
         $senha = $_POST['senha'];
 
-        $verifica = mysqli_query($connection,"select * from admin WHERE email_admin = '$email' AND  senha = '$senha'");
+        $verifica = mysqli_query($conexao,"select * from admin WHERE email_admin = '$email' AND  senha_admin = '$senha'");
 
         if(mysqli_num_rows($verifica) <= 0){
 

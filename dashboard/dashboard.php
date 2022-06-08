@@ -8,8 +8,8 @@
     $query2 = "select * from empresa WHERE estado_empresa='PENDENTE'";
     $query1 = "select * from empresa WHERE estado_empresa='APROVADO'";
    
-    $dados2 = mysqli_query($connection,$query1);
-    $dados1 = mysqli_query($connection,$query2);
+    $dados2 = mysqli_query($conexao,$query1);
+    $dados1 = mysqli_query($conexao,$query2);
 
     if($dados1){
         $total1 = mysqli_num_rows($dados1);
