@@ -76,7 +76,7 @@
                     <div class="login-content">
                         <div class="login-logo">
                             <a href="#">
-                                <img src="../assets/img/logos/logo.png">
+                                ARQSOFT
                             </a>
                         </div>
                         <div class="login-form">
@@ -92,6 +92,12 @@
                                 <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">sign in</button>
                                 
                             </form>
+                            <div class="register-link">
+                                <p>
+                                    Não tem uma conta?
+                                    <a href="#">Cadastre a sua empresa</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
