@@ -7,11 +7,11 @@
         header("location:index.php");
     }
     // $resultado_aprovados = "";
-    // $resultado_pendentes ="";
+    $resultado_pendentes ="";
     // $query2 = "select * from empresa WHERE estado_empresa='PENDENTE'";
-    // $query1 = "select * from empresa WHERE estado_empresa='APROVADO'";
+     $query1 = "select * from admin";
    
-    // $dados2 = mysqli_query($conexao,$query1);
+     $dados2 = mysqli_query($conexao,$query1);
     // $dados1 = mysqli_query($conexao,$query2);
 
     // if($dados1){
@@ -40,28 +40,26 @@
     //         }
     //     }
     // }
-    // if($dados2){
-    //     $total2 = mysqli_num_rows($dados2);
-    //     if($total2 > 0){          
-    //         while($linha2 = mysqli_fetch_assoc($dados2)){
-    //         $id1 =  $linha2['idempresa'];
-    //         $nome1 = $linha2["nome_empresa"];
-    //         $morada1 = $linha2["morada_empresa"];
+     if($dados2){
+         $total2 = mysqli_num_rows($dados2);
+         if($total2 > 0){          
+             while($linha2 = mysqli_fetch_assoc($dados2)){
+             $id1 =  $linha2['idadmin'];
+             $nome1 = $linha2["nome_admin"];
+             $email1 = $linha2["email_admin"];
     //         $email1 = $linha2['email_empresa'];
     //         $telefone1 = $linha2['telefone_empresa'];
-    //         $resultado_aprovados .="
+             $resultado_aprovados .="
                 
-    //         <tr>
-    //             <td>$nome1</td>
-    //             <td>$morada1</td>
-    //             <td>$email1</td>
-    //             <td>$telefone1</td>
-    //             <td><a href='eliminar.php?id=$id'><button class='btn btn-danger'>Reprovar</button></a></td>
-    //         </tr>
+             <tr>
+                   <td>$id1</td>
+                   <td>$nome1</td>
+                   <td>$email1</td>
+             </tr>
             
             
             
-    //         ";
+             ";
     //         }
     //     }
     // }
@@ -360,6 +358,24 @@
                                             <tr>
                                                 <th>Nome</th>
                                                 <th>Comentário</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?=$resultado_aprovados?>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h2 class="title-1 m-b-25">Administradores
+                                </h2>
+                                <div class="table-responsive table--no-card m-b-40">
+                                    <table class="table table-borderless table-striped table-earning">
+                                        <thead>
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Nome</th>
+                                                <th>Email</th>
                                             </tr>
                                         </thead>
                                         <tbody>
