@@ -158,6 +158,9 @@
                     if($_GET['page'] == "contactos"){
                         $hover_c .="active";
                     }
+                    if($_SERVER['REQUEST_URI'] === '/arksoft.ao/page.php'){
+                        $hover .= "active";
+                    }
                 
                 ?>
                 <li> <a class="<?=$hover?>" href="page.php?page=home">Home</a>
