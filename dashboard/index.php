@@ -3,7 +3,7 @@
 
     session_start();
 
-    include '../conexao.php';
+    include 'conexao.php';
     if(isset($_POST['email'])){
         $email = $_POST['email'];
         $senha = $_POST['senha'];
