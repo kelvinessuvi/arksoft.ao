@@ -19,11 +19,11 @@
         while($linha2 = mysqli_fetch_assoc($verifica)){
             $nome_admin = $linha2['nome_admin'];
             $id_admin = $linha2['idadmin'];
+        }
             echo "<script>alert('BEM-VINDO');
             window.location.href='dashboard.php';
             
             </script>";
-        }
             
             $_SESSION['nome_admin'] = $nome_admin;
             $_SESSION['id_admin'] = $id_admin;
