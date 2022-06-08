@@ -53,7 +53,7 @@
                 
              <tr>
                    <td>$id1</td>
-                   <td>$nome1</td>
+                   <td>".utf8_decode($nome1)."</td>
                    <td>$email1</td>
              </tr>
             
