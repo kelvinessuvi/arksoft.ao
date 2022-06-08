@@ -140,7 +140,7 @@
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="dashboard.php">
-                    ARQSOFT
+                    <img src="../assets/img/logos/logo.png">
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
