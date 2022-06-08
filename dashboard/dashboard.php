@@ -110,7 +110,7 @@
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
                         <a class="logo" href="index.php">
-                            ARQSOFT
+                            ARKSOFT ANGOLA
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
                             <span class="hamburger-box">
@@ -330,7 +330,7 @@
                         
                         <div class="row">
                             <div class="col-lg-9">
-                                <h2 class="title-1 m-b-25">Empresas Pendentes</h2>
+                                <h2 class="title-1 m-b-25">Candidatos</h2>
                                 <div class="table-responsive table--no-card m-b-40">
                                     <table class="table table-borderless table-striped table-earning">
                                         <thead>
@@ -350,7 +350,8 @@
                                 </div>
                             </div>
                             <div class="col-lg-9">
-                                <h2 class="title-1 m-b-25">Empresas Aprovadas</h2>
+                                <h2 class="title-1 m-b-25">Feedbacks
+                                </h2>
                                 <div class="table-responsive table--no-card m-b-40">
                                     <table class="table table-borderless table-striped table-earning">
                                         <thead>
