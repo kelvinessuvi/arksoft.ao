@@ -361,7 +361,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <?=$resultado_aprovados?>
+                                            <!-- <?=$resultado_aprovados?> -->
                                         </tbody>
                                     </table>
                                 </div>
