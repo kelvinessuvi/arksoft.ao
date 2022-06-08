@@ -11,8 +11,7 @@
 
         if(mysqli_num_rows($verifica) <= 0){
 
-            echo "<script>alert('Email ou password errado');</script>";
-            echo $senha;
+            echo "<script>alert('Email ou password errada');</script>";
 
         }
         else{

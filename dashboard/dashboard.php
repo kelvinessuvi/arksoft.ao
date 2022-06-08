@@ -1,7 +1,7 @@
 <?php
 
     session_start();
-    require_once '../conexao.php';
+    require_once 'conexao.php';
     // $nome_admin = $_SESSION['nome_admin'];
     // $resultado_aprovados = "";
     // $resultado_pendentes ="";
