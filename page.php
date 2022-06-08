@@ -1,6 +1,9 @@
 <?php
     include 'includes/head.php';
-    include 'includes/homecontent.php';
+    
+    if($_SERVER['REQUEST_URI'] === "/arksoft.ao/page.php"){
+        include 'includes/homecontent.php';
+    }
 
     if($_GET['page'] == "home"){
         include 'includes/homecontent.php';
