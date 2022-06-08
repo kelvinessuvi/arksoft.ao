@@ -2,7 +2,7 @@
 
     session_start();
     require_once 'conexao.php';
-    // $nome_admin = $_SESSION['nome_admin'];
+    $nome_admin = $_SESSION['nome_admin'];
     // $resultado_aprovados = "";
     // $resultado_pendentes ="";
     // $query2 = "select * from empresa WHERE estado_empresa='PENDENTE'";
@@ -297,7 +297,7 @@
                                             <div class="info clearfix">
                                                 <div class="image">
                                                     <a href="#">
-                                                        <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                                        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="John Doe" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
@@ -335,12 +335,11 @@
                                     <table class="table table-borderless table-striped table-earning">
                                         <thead>
                                             <tr>
-                                                <th>Nome da empresa</th>
+                                                <th>Nome</th>
                                                 <th>Morada</th>
                                                 <th>Email</th>
                                                 <th>Telefone</th>
-                                                <th>Aprovar</th>
-                                                <th>Reprovar</th>
+                                                <th>CV</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -356,11 +355,8 @@
                                     <table class="table table-borderless table-striped table-earning">
                                         <thead>
                                             <tr>
-                                                <th>Nome da empresa</th>
-                                                <th>Morada</th>
-                                                <th>Email</th>
-                                                <th>Telefone</th>
-                                                <th>Reprovar</th>
+                                                <th>Nome</th>
+                                                <th>Comentário</th>
                                             </tr>
                                         </thead>
                                         <tbody>
