@@ -2,66 +2,66 @@
 
     session_start();
     require_once '../conexao.php';
-    $nome_admin = $_SESSION['nome_admin'];
-    $resultado_aprovados = "";
-    $resultado_pendentes ="";
-    $query2 = "select * from empresa WHERE estado_empresa='PENDENTE'";
-    $query1 = "select * from empresa WHERE estado_empresa='APROVADO'";
+    // $nome_admin = $_SESSION['nome_admin'];
+    // $resultado_aprovados = "";
+    // $resultado_pendentes ="";
+    // $query2 = "select * from empresa WHERE estado_empresa='PENDENTE'";
+    // $query1 = "select * from empresa WHERE estado_empresa='APROVADO'";
    
-    $dados2 = mysqli_query($conexao,$query1);
-    $dados1 = mysqli_query($conexao,$query2);
+    // $dados2 = mysqli_query($conexao,$query1);
+    // $dados1 = mysqli_query($conexao,$query2);
 
-    if($dados1){
-        $total1 = mysqli_num_rows($dados1);
-        if($total1 > 0){          
-            while($linha1 = mysqli_fetch_assoc($dados1)){
-            $id =  $linha1['idempresa'];
-            $nome = $linha1["nome_empresa"];
-            $morada = $linha1["morada_empresa"];
-            $email = $linha1['email_empresa'];
-            $telefone = $linha1['telefone_empresa'];
-            $resultado_pendentes .="
+    // if($dados1){
+    //     $total1 = mysqli_num_rows($dados1);
+    //     if($total1 > 0){          
+    //         while($linha1 = mysqli_fetch_assoc($dados1)){
+    //         $id =  $linha1['idempresa'];
+    //         $nome = $linha1["nome_empresa"];
+    //         $morada = $linha1["morada_empresa"];
+    //         $email = $linha1['email_empresa'];
+    //         $telefone = $linha1['telefone_empresa'];
+    //         $resultado_pendentes .="
                 
-            <tr>
-                <td>$nome</td>
-                <td>$morada</td>
-                <td>$email</td>
-                <td>$telefone</td>
-                <td><a href='aprovar.php?id=$id'><button class='btn btn-primary'>Aprovar</button></a></td>
-                <td><a href='eliminar.php?id=$id'><button class='btn btn-danger'>Reprovar</button></a></td>
-            </tr>
+    //         <tr>
+    //             <td>$nome</td>
+    //             <td>$morada</td>
+    //             <td>$email</td>
+    //             <td>$telefone</td>
+    //             <td><a href='aprovar.php?id=$id'><button class='btn btn-primary'>Aprovar</button></a></td>
+    //             <td><a href='eliminar.php?id=$id'><button class='btn btn-danger'>Reprovar</button></a></td>
+    //         </tr>
             
             
             
-            ";
-            }
-        }
-    }
-    if($dados2){
-        $total2 = mysqli_num_rows($dados2);
-        if($total2 > 0){          
-            while($linha2 = mysqli_fetch_assoc($dados2)){
-            $id1 =  $linha2['idempresa'];
-            $nome1 = $linha2["nome_empresa"];
-            $morada1 = $linha2["morada_empresa"];
-            $email1 = $linha2['email_empresa'];
-            $telefone1 = $linha2['telefone_empresa'];
-            $resultado_aprovados .="
+    //         ";
+    //         }
+    //     }
+    // }
+    // if($dados2){
+    //     $total2 = mysqli_num_rows($dados2);
+    //     if($total2 > 0){          
+    //         while($linha2 = mysqli_fetch_assoc($dados2)){
+    //         $id1 =  $linha2['idempresa'];
+    //         $nome1 = $linha2["nome_empresa"];
+    //         $morada1 = $linha2["morada_empresa"];
+    //         $email1 = $linha2['email_empresa'];
+    //         $telefone1 = $linha2['telefone_empresa'];
+    //         $resultado_aprovados .="
                 
-            <tr>
-                <td>$nome1</td>
-                <td>$morada1</td>
-                <td>$email1</td>
-                <td>$telefone1</td>
-                <td><a href='eliminar.php?id=$id'><button class='btn btn-danger'>Reprovar</button></a></td>
-            </tr>
+    //         <tr>
+    //             <td>$nome1</td>
+    //             <td>$morada1</td>
+    //             <td>$email1</td>
+    //             <td>$telefone1</td>
+    //             <td><a href='eliminar.php?id=$id'><button class='btn btn-danger'>Reprovar</button></a></td>
+    //         </tr>
             
             
             
-            ";
-            }
-        }
-    }
+    //         ";
+    //         }
+    //     }
+    // }
 
 ?>
 
