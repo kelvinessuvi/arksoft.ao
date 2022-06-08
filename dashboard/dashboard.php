@@ -3,6 +3,9 @@
     session_start();
     require_once 'conexao.php';
     $nome_admin = $_SESSION['nome_admin'];
+    if(empty($nome_admin)){
+        header("location:index.php");
+    }
     // $resultado_aprovados = "";
     // $resultado_pendentes ="";
     // $query2 = "select * from empresa WHERE estado_empresa='PENDENTE'";
