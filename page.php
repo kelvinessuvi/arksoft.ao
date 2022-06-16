@@ -29,12 +29,6 @@
             $cv_candidato = strval($cv["name"]);
             $query1 = "INSERT INTO recrutamento (nome_candidato,email_candidato,telefone_candidato,cv_candidato) VALUES ('$nome_candidato','$email_candidato','$telefone_candidato','$cv_candidato')";
             mysqli_query($conexao,$query1);
-            echo "
-                <script>
-                    alert('A sua candidatura foi feita com sucesso!');
-                    window.location.href='page.php?page=recruit';
-                </script>
-            ";
             $files = $_FILES['cv_candidato'];
             if($files['error']){
                 throw new Exception("Error: ".$files["error"]);
@@ -47,6 +41,12 @@
             else{
                 throw new Exception("Não foi possível realizar o upload do arquivo selecionado.");
             }
+            echo "
+                <script>
+                    alert('A sua candidatura foi feita com sucesso!');
+                    window.location.href='page.php?page=recruit';
+                </script>
+            ";
         }
         
     }
