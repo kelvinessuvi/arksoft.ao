@@ -9,7 +9,7 @@
 
           <ul>
 
-            <li data-index="rs-1812" data-transition="zoomin" data-slotamount="0"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="img/mulher-com-macara-de-protecao.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Proteja-se contra a covid-19" data-description="">
+            <li data-index="rs-1812" data-transition="zoomin" data-slotamount="0"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="assets/img/mulher-com-macara-de-protecao.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Proteja-se contra a covid-19" data-description="">
 
               <img src="assets/img/mulher-com-macara-de-protecao.jpg"  alt="#"  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
