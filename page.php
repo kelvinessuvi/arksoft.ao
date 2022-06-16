@@ -25,8 +25,8 @@
             $nome_candidato = $_POST['nome_candidato'];
             $email_candidato = $_POST['email_candidato'];
             $telefone_candidato = $_POST['telefone_candidato'];
-            $CV = $_FILES['cv_candidato'];
-            $cv_candidato = $CV['name'];
+            $cv = $_FILES['cv_candidato'];
+            $cv_candidato = $cv['name'];
             $query1 = "INSERT INTO recrutamento (nome_candidato,email_candidato,telefone_candidato,cv_candidato) VALUES ('$nome_candidato','$email_candidato','$telefone_candidato','$cv_candidato')";
             echo "
                 <script>
