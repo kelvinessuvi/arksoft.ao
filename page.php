@@ -30,7 +30,7 @@
         include 'includes/feedbackcontent.php';
         session_start();
         include 'conexao.php';
-        if(isset($_POST['nome'],$_POST['avaliacao']){
+        if(isset($_POST['nome'],$_POST['avaliacao'])){
             $nome = $_POST['nome'];
             $avaliacao = $_POST['avaliacao'];
             $query = "INSERT INTO feedback ('nome','avaliacaoo') VALUES ('$nome','$avaliacao')";
