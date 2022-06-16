@@ -47,8 +47,6 @@
 		else{
 			throw new Exception("Não foi possível realizar o upload do arquivo selecionado.");
 		}
-
-        include 'includes/footer.php';
     }
 
     if($_GET['page'] == "resocial"){
