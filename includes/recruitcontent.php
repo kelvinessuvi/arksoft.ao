@@ -59,13 +59,13 @@
 
                     <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
-                      <input class="field_custom" neme ="telefone_candidato" placeholder="Telefone" type="text">
+                      <input class="field_custom" name="telefone_candidato" placeholder="Telefone" type="tel">
 
                     </div>
 
                     <div class="field col-lg-6 col-md-6 col-sm-6 col-xs-6">
                       <label>Anexe o seu CV</label>
-                      <input class="form-bottom" name ="cv_candidato" type="file" class="field_custom">
+                      <input class="form-bottom" name="cv_candidato" type="file">
                     </div>
                     <div class="center"><button class="btn btn-primary" type="submit">Candidatar-se</button></div>
 
