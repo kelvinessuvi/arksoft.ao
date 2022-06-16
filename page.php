@@ -20,6 +20,10 @@
 
     if($_GET['page'] == "recruit"){
         include 'includes/recruitcontent.php';
+        include 'conexao.php';
+        if(isset($_POST['nome'],$_POST['telefone'], $_POST['email'], $_POST[''])){
+
+        }
     }
 
     if($_GET['page'] == "resocial"){

@@ -365,6 +365,7 @@
                                                 <th>CV</th>
                                             </tr>
                                         </thead>
+                                            <?=$resultado_candidatos?>
                                         <tbody>
                                         </tbody>
                                     </table>

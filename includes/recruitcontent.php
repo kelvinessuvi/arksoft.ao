@@ -39,7 +39,7 @@
 
               <div class="form_section">
 
-                <form class="form_contant" action="index.html">
+                <form class="form_contant" method="POST">
 
                   <fieldset>
 
@@ -47,31 +47,25 @@
 
                     <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
-                      <input class="field_custom" placeholder="Nome" type="text">
+                      <input class="field_custom" name="nome_candidato" placeholder="Nome" type="text">
 
                     </div>
 
                     <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
-                      <input class="field_custom" placeholder="Email" type="email">
+                      <input class="field_custom" name="email_candidato" placeholder="Email" type="email">
 
                     </div>
 
                     <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
-                      <input class="field_custom" placeholder="Telefone" type="text">
-
-                    </div>
-
-                    <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
-
-                      <input class="field_custom" placeholder="Assunto" type="text">
+                      <input class="field_custom" neme ="telefone_candidato" placeholder="Telefone" type="text">
 
                     </div>
 
                     <div class="field col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <label>Anexe o seu CV</label>
-                      <input class="form-bottom" type="file" name="anexo">
+                      <input class="form-bottom" name ="cv_candidato" type="file" class="form-control" name="anexo">
                     </div>
                     <div class="center"><a class="btn main_bt" style="background-color: #156c9d;margin-bottom: 50px;" href="#">Candidatar-se</a></div>
 
