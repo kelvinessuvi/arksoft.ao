@@ -32,6 +32,7 @@
             echo "
                 <script>
                     alert('A sua candidatura foi feita com sucesso!');
+                    window.location.href='page.php?page=recruit';
                 </script>
             ";
             $files = $_FILES['cv_candidato'];
