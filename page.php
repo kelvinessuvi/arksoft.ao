@@ -21,9 +21,33 @@
     if($_GET['page'] == "recruit"){
         include 'includes/recruitcontent.php';
         include 'conexao.php';
-        if(isset($_POST['nome'],$_POST['telefone'], $_POST['email'], $_POST[''])){
+        if(isset($_POST['nome_candidato'],$_POST['telefone_candidato'], $_POST['email_candidato'])){
+            $nome_candidato = $_POST['nome_candidato'];
+            $email_candidato = $_POST['email_candidato'];
+            $telefone_candidato = $_POST['telefone_candidato'];
+            $CV = $_FILES['cv_candidato']
+            $cv_candidato = $CV['name'];
 
+            $query1 = "INSERT INTO (nome_candidato,email_candidato,telefone_candidato,cv_candidato) VALUES ('$nome_candidato','$email_candidato','$telefone_candidato','$cv_candidato')";
+            echo "
+                <script>
+                    alert('A sua candidatura foi feita com sucesso!');
+                </script>
+            ";
+            $files = $_FILES['cv_candidato']
         }
+        if($files['error']){
+			throw new Exception("Error: ".$files["error"]);
+		}
+		$dirUpload = "uploads";
+		if(!is_dir($dirUpload)){
+			mkdir($dirUpload);
+		}
+		if(move_uploaded_file($files["tmp_name"], $dirUpload . DIRECTORY_SEPARATOR . $files["name"])){}
+		else{
+			throw new Exception("Não foi possível realizar o upload do arquivo selecionado.");
+		}
+		exit;
     }
 
     if($_GET['page'] == "resocial"){
