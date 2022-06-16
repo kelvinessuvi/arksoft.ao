@@ -382,7 +382,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <!-- <?=$resultado_feedback?> -->
+                                             <?=$resultado_feedback?> 
                                         </tbody>
                                     </table>
                                 </div>
