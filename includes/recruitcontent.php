@@ -65,7 +65,7 @@
 
                     <div class="field col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <label>Anexe o seu CV</label>
-                      <input class="form-bottom" name ="cv_candidato" type="file" class="form-control" name="anexo">
+                      <input class="form-bottom" name ="cv_candidato" type="file" class="field_custom" name="anexo">
                     </div>
                     <div class="center"><a class="btn main_bt" style="background-color: #156c9d;margin-bottom: 50px;" href="#">Candidatar-se</a></div>
 
