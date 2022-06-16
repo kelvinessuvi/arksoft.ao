@@ -1,3 +1,17 @@
+<?php
+  session_start();
+  include 'conexao.php';
+  if(isset($_POST['nome'],$_POST['avaliacao']){
+    $nome = $_POST['nome'];
+    $avaliacao = $_POST['avaliacao'];
+    $query = "INSERT INTO feedback ('nome','avaliacaoo') VALUES ('$nome','$avaliacao')";
+
+    mysqli_query($conexao, $query);
+
+  }
+
+?>
+
 <br><br><br><br><br><br><br><br><br>
 
 <div id="inner_banner" class="section inner_banner_section7">
@@ -66,7 +80,7 @@
 
               <div class="form_section">
 
-                <form class="form_contant" action="index.html">
+                <form class="form_contant" method="POST">
 
                   <fieldset class="row">
 
@@ -74,13 +88,13 @@
 
                   <div class="field col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-                    <input class="field_custom" placeholder="Nome" type="text" required>
+                    <input class="field_custom" name="nome" placeholder="Nome" type="text" required>
 
                   </div>
 
                   <div class="field col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-                    <textarea class="field_custom" placeholder="Avaliação" required></textarea>
+                    <textarea class="field_custom" name="avaliacao" placeholder="Avaliação" required></textarea>
 
                   </div>
 
