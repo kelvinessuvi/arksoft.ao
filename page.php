@@ -26,7 +26,7 @@
             $email_candidato = $_POST['email_candidato'];
             $telefone_candidato = $_POST['telefone_candidato'];
             $cv = $_FILES['cv_candidato'];
-            $cv_candidato = $cv['name'];
+            $cv_candidato = $cv["name"];
             $query1 = "INSERT INTO recrutamento (nome_candidato,email_candidato,telefone_candidato,cv_candidato) VALUES ('$nome_candidato','$email_candidato','$telefone_candidato','$cv_candidato')";
             mysqli_query($conexao,$query1);
             echo "
@@ -35,18 +35,19 @@
                 </script>
             ";
             $files = $_FILES['cv_candidato'];
+            if($files['error']){
+                throw new Exception("Error: ".$files["error"]);
+            }
+            $dirUpload = "uploads";
+            if(!is_dir($dirUpload)){
+                mkdir($dirUpload);
+            }
+            if(move_uploaded_file($files["tmp_name"], $dirUpload . DIRECTORY_SEPARATOR . $files["name"])){}
+            else{
+                throw new Exception("Não foi possível realizar o upload do arquivo selecionado.");
+            }
         }
-        if($files['error']){
-			throw new Exception("Error: ".$files["error"]);
-		}
-		$dirUpload = "uploads";
-		if(!is_dir($dirUpload)){
-			mkdir($dirUpload);
-		}
-		if(move_uploaded_file($files["tmp_name"], $dirUpload . DIRECTORY_SEPARATOR . $files["name"])){}
-		else{
-			throw new Exception("Não foi possível realizar o upload do arquivo selecionado.");
-		}
+        
     }
 
     if($_GET['page'] == "resocial"){
