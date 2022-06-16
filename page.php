@@ -33,7 +33,7 @@
         if(isset($_POST['nome'],$_POST['avaliacao'])){
             $nome = $_POST['nome'];
             $avaliacao = $_POST['avaliacao'];
-            $query = "INSERT INTO feedback ('nome','avaliacaoo') VALUES ('$nome','$avaliacao')";
+            $query = "INSERT INTO feedback (nome,avaliacao) VALUES ('$nome','$avaliacao')";
 
             mysqli_query($conexao, $query);
 
