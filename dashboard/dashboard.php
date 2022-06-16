@@ -6,12 +6,14 @@
     if(empty($nome_admin)){
         header("location:index.php");
     }
-    // $resultado_aprovados = "";
-    $resultado_pendentes ="";
+    // $resultado_feedback = "";
+    $resultado_feedback ="";
     // $query2 = "select * from empresa WHERE estado_empresa='PENDENTE'";
      $query1 = "select * from admin";
+     $query2 = "select * from feedback";
    
      $dados2 = mysqli_query($conexao,$query1);
+     $dados3 = mysqli_query($conexao,$query2);
     // $dados1 = mysqli_query($conexao,$query2);
 
     // if($dados1){
@@ -47,9 +49,7 @@
              $id1 =  $linha2['idadmin'];
              $nome1 = $linha2["nome_admin"];
              $email1 = $linha2["email_admin"];
-    //         $email1 = $linha2['email_empresa'];
-    //         $telefone1 = $linha2['telefone_empresa'];
-             $resultado_aprovados .="
+             $resultado_admin .="
                 
              <tr>
                    <td>$id1</td>
@@ -63,6 +63,28 @@
              }
          }
      }
+
+     if($dados3){
+        $total3 = mysqli_num_rows($dados3);
+        if($total3 > 0){          
+            while($linha3 = mysqli_fetch_assoc($dados3)){
+            $id =  $linha3['id'];
+            $nome = $linha3["nome"];
+            $comentario = $linha3["avaliacao"];
+            $resultado_feedback .="
+               
+            <tr>
+                  <td>$id</td>
+                  <td>".utf8_encode($nome)."</td>
+                  <td>$comentario</td>
+            </tr>
+           
+           
+           
+            ";
+            }
+        }
+    }
 
 ?>
 
@@ -344,7 +366,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <?=$resultado_pendentes?>
+                                            <?=$resultado_admin?>
                                         </tbody>
                                     </table>
                                 </div>
@@ -361,7 +383,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <!-- <?=$resultado_aprovados?> -->
+                                            <!-- <?=$resultado_feedback?> -->
                                         </tbody>
                                     </table>
                                 </div>
@@ -379,7 +401,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <?=$resultado_aprovados?>
+                                            <?=$resultado_admin?>
                                         </tbody>
                                     </table>
                                 </div>
