@@ -13,7 +13,7 @@
           <div class="title-holder">
 
             <div class="title-holder-cell text-left">
-
+   
               <h1 class="page-title"></h1>
 
               
