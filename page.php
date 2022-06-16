@@ -46,7 +46,6 @@
 		else{
 			throw new Exception("Não foi possível realizar o upload do arquivo selecionado.");
 		}
-		exit;
     }
 
     if($_GET['page'] == "resocial"){
