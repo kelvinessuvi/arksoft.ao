@@ -301,9 +301,9 @@
 
             </li>
 
-            <li data-index="rs-182" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="img/nesa-by-makers-igur1ix0mqm-unsplash1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Arquitetura de soluções em software" data-description="">
+            <li data-index="rs-182" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="assets/img/nesa-by-makers-igur1ix0mqm-unsplash1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Arquitetura de soluções em software" data-description="">
 
-              <img src="img/nesa-by-makers-igur1ix0mqm-unsplash1.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+              <img src="assets/img/nesa-by-makers-igur1ix0mqm-unsplash1.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
               <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" 
 

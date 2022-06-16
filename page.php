@@ -34,7 +34,5 @@
         include 'includes/contactoscontent.php';
     }
 
-    
-
     include 'includes/footer.php';
 ?>
