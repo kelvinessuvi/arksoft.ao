@@ -27,14 +27,13 @@
             $telefone_candidato = $_POST['telefone_candidato'];
             $CV = $_FILES['cv_candidato'];
             $cv_candidato = $CV['name'];
-
-            $query1 = "INSERT INTO (nome_candidato,email_candidato,telefone_candidato,cv_candidato) VALUES ('$nome_candidato','$email_candidato','$telefone_candidato','$cv_candidato')";
+            $query1 = "INSERT INTO recrutamento (nome_candidato,email_candidato,telefone_candidato,cv_candidato) VALUES ('$nome_candidato','$email_candidato','$telefone_candidato','$cv_candidato')";
             echo "
                 <script>
                     alert('A sua candidatura foi feita com sucesso!');
                 </script>
             ";
-            $files = $_FILES['cv_candidato']
+            $files = $_FILES['cv_candidato'];
         }
         if($files['error']){
 			throw new Exception("Error: ".$files["error"]);
