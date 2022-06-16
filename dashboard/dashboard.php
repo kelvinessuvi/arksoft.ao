@@ -366,7 +366,6 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <?=$resultado_admin?>
                                         </tbody>
                                     </table>
                                 </div>
