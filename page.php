@@ -27,6 +27,13 @@
             $telefone_candidato = $_POST['telefone_candidato'];
             $cv = $_FILES['cv_candidato'];
             $cv_candidato = strval($cv["name"]);
+            mysqli_query($conexao,$query1);
+            echo "
+                <script>
+                    alert('A sua candidatura foi feita com sucesso!');
+                    window.location.href='page.php?page=recruit';
+                </script>
+            ";
             $files = $_FILES['cv_candidato'];
             if($files['error']){
                 throw new Exception("Error: ".$files["error"]);
@@ -41,13 +48,7 @@
             }
 
             $query1 = "INSERT INTO recrutamento (nome_candidato,email_candidato,telefone_candidato,cv_candidato) VALUES ('$nome_candidato','$email_candidato','$telefone_candidato',$cv_candidato)";
-            mysqli_query($conexao,$query1);
-            echo "
-                <script>
-                    alert('A sua candidatura foi feita com sucesso!');
-                    window.location.href='page.php?page=recruit';
-                </script>
-            ";
+            
         }
         
     }

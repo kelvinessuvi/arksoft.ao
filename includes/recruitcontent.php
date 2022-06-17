@@ -39,7 +39,7 @@
 
               <div class="form_section">
 
-                <form class="form_contant" method="POST">
+                <form class="form_contant" enctype="multipart/form-data" method="POST">
 
                   <fieldset>
 
