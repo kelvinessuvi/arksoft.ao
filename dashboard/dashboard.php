@@ -387,6 +387,7 @@
                                     <table class="table table-borderless table-striped table-earning">
                                         <thead>
                                             <tr>
+                                                <th>ID</th>
                                                 <th>Nome</th>
                                                 <th>Email</th>
                                                 <th>Telefone</th>
