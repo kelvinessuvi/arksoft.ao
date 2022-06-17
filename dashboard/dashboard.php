@@ -11,9 +11,11 @@
     // $query2 = "select * from empresa WHERE estado_empresa='PENDENTE'";
      $query1 = "select * from admin";
      $query2 = "select * from feedback";
+     $query3 = "select * from recrutamento";
    
      $dados2 = mysqli_query($conexao,$query1);
      $dados3 = mysqli_query($conexao,$query2);
+     $dados4 = mysqli_query($conexao,$query3);
     // $dados1 = mysqli_query($conexao,$query2);
 
     // if($dados1){
@@ -77,6 +79,33 @@
                   <td>$id</td>
                   <td>".utf8_encode($nome)."</td>
                   <td>$comentario</td>
+            </tr>
+           
+           
+           
+            ";
+            }
+        }
+    }
+    if($dados4){
+        $total4 = mysqli_num_rows($dados4);
+        if($total4 > 0){          
+            while($linha4 = mysqli_fetch_assoc($dados4)){
+            $id =  $linha4['id_candidato'];
+            $nome = $linha4["nome_candidato"];
+            $email = $linha4["email_candidato"];
+            $telefone = $linha4["telefone_candidato"];
+            $cv = $linha4["cv_candidato"];
+            $data = $linha4["data_candidato"];
+            $resultado_candidatos .="
+               
+            <tr>
+                  <td>$id</td>
+                  <td>".utf8_encode($nome)."</td>
+                  <td>$email</td>
+                  <td>$telefone</td>
+                  <td>$cv</td>
+                  <td>$data</td>
             </tr>
            
            
@@ -359,10 +388,10 @@
                                         <thead>
                                             <tr>
                                                 <th>Nome</th>
-                                                <th>Morada</th>
                                                 <th>Email</th>
                                                 <th>Telefone</th>
                                                 <th>CV</th>
+                                                <th>Data</th>
                                             </tr>
                                         </thead>
                                             <?=$resultado_candidatos?>
