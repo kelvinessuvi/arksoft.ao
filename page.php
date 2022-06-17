@@ -27,7 +27,7 @@
             $telefone_candidato = $_POST['telefone_candidato'];
             $cv = $_FILES['cv_candidato'];
             $cv_candidato = strval($cv["name"]);
-            $query1 = "INSERT INTO recrutamento (nome_candidato,email_candidato,telefone_candidato,cv_candidato) VALUES ('$nome_candidato','$email_candidato','$telefone_candidato',$cv_candidato)";
+            $query1 = "INSERT INTO recrutamento (nome_candidato,email_candidato,telefone_candidato,cv_candidato) VALUES ('$nome_candidato','$email_candidato','$telefone_candidato','$cv_candidato')";
             mysqli_query($conexao,$query1);
             echo "
                 <script>
