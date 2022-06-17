@@ -104,7 +104,7 @@
                   <td>".utf8_encode($nome)."</td>
                   <td>$email</td>
                   <td>$telefone</td>
-                  <td>$cv</td>
+                  <td><a href='../uploads/$cv'>$cv</a></td>
                   <td>$data</td>
             </tr>
            
