@@ -67,7 +67,7 @@
                       <label>Anexe o seu CV</label>
                       <input class="form_custom" name="cv_candidato" accept=".pdf, .docx" type="file">
                     </div>
-                    <div class="center"><button class="btn btn-primary">Candidatar-se</button></div>
+                    <div style="margin-bottom:90px;" class="center"><button class="btn btn-primary">Candidatar-se</button></div>
 
                   </div>
 
