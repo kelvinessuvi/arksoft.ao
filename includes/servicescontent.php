@@ -54,7 +54,7 @@
 
             <p>Os Websites são bastante importantes para dar visiblidade a sua marca ou negócio, não importa...</p>
 
-            <div class="bt_cont"> <a class="btn sqaure_bt" style="background:rgb(96, 97, 99);" href="devwebsite.html">Ver Mais</a> </div>
+            <div class="bt_cont"> <a class="btn sqaure_bt" style="background:rgb(96, 97, 99);" href="includes/devwebsite.html">Ver Mais</a> </div>
 
           </div>
 
@@ -74,7 +74,7 @@
 
             <p>Desenvolvemos diversos tipos de programas e aplicativos profissionais, para empresas ou pessoas singulares...</p>
 
-            <div class="bt_cont"> <a class="btn sqaure_bt" style="background:rgb(96, 97, 99);" href="devsoftware.html">Ver Mais</a> </div>
+            <div class="bt_cont"> <a class="btn sqaure_bt" style="background:rgb(96, 97, 99);" href="includes/devsoftware.html">Ver Mais</a> </div>
 
           </div>
 
@@ -94,7 +94,7 @@
 
             <p>Desenhamos, criamos e desenvolvemos diferentes tipos...</p>
 
-            <div class="bt_cont"> <a class="btn sqaure_bt" style="background:rgb(96, 97, 99);" href="bdservice.html">Ver Mais</a> </div>
+            <div class="bt_cont"> <a class="btn sqaure_bt" style="background:rgb(96, 97, 99);" href="includes/bdservice.html">Ver Mais</a> </div>
 
           </div>
 
@@ -114,7 +114,7 @@
 
             <p>Implementamos e parametrizamos redes estruturadas...</p>
 
-            <div class="bt_cont"> <a class="btn sqaure_bt" style="background:rgb(96, 97, 99);" href="redes.html">Ver Mais</a> </div>
+            <div class="bt_cont"> <a class="btn sqaure_bt" style="background:rgb(96, 97, 99);" href="includes/redes.html">Ver Mais</a> </div>
 
           </div>
 
@@ -134,7 +134,7 @@
 
             <p>Através deste serviço, tornamos o seu negócio mais visível no mundo digital...</p>
 
-            <div class="bt_cont"> <a class="btn sqaure_bt" style="background:rgb(96, 97, 99);" href="mdigital.html">View Service</a> </div>
+            <div class="bt_cont"> <a class="btn sqaure_bt" style="background:rgb(96, 97, 99);" href="includes/mdigital.html">View Service</a> </div>
 
           </div>
 
@@ -154,7 +154,7 @@
 
             <p>Prestamos serviços de suporte e assistência técnica presencialmente ou remotamente a…</p>
 
-            <div class="bt_cont"> <a class="btn sqaure_bt" style="background:rgb(96, 97, 99);" href="reparacao.html">Ver Mais</a> </div>
+            <div class="bt_cont"> <a class="btn sqaure_bt" style="background:rgb(96, 97, 99);" href="includes/reparacao.html">Ver Mais</a> </div>
 
           </div>
 
@@ -174,7 +174,7 @@
 
             <p>Implementamos sistemas de segurança por vídeo, voz, impressões digitais...</p>
 
-            <div class="bt_cont"> <a class="btn sqaure_bt" style="background:rgb(96, 97, 99);" href="cctv.html">Ver Mais</a> </div>
+            <div class="bt_cont"> <a class="btn sqaure_bt" style="background:rgb(96, 97, 99);" href="includes/cctv.html">Ver Mais</a> </div>
 
           </div>
 
@@ -194,7 +194,7 @@
 
             <p>Instalamos e configuramos centrais telefónicas analógicas e VOIP…</p>
 
-            <div class="bt_cont"> <a class="btn sqaure_bt" style="background:rgb(96, 97, 99);" href="tel.html">Ver Mais</a> </div>
+            <div class="bt_cont"> <a class="btn sqaure_bt" style="background:rgb(96, 97, 99);" href="includes/tel.html">Ver Mais</a> </div>
 
           </div>
 
