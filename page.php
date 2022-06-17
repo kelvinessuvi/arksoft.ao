@@ -21,7 +21,7 @@
     if($_GET['page'] == "recruit"){
         include 'includes/recruitcontent.php';
         include 'conexao.php';
-        if(isset($_POST['nome_candidato'])){
+        if(isset($_POST['nome_candidato']) || isset($_FILES['cv_candidato'])){
             $nome_candidato = $_POST['nome_candidato'];
             $email_candidato = $_POST['email_candidato'];
             $telefone_candidato = $_POST['telefone_candidato'];
