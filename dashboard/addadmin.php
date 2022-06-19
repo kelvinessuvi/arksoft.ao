@@ -2,20 +2,17 @@
   
     session_start();
     require_once '../conexao.php';
-    $nome_da_empresa = $_SESSION['nome_empresa'];
-    if(isset($_POST['titulo'])){
-        $titulo = $_POST['titulo'];
-        $descricao = $_POST['descricao'];
-        $experiencia = $_POST['experiencia'];
-        $salario = $_POST['salario'];
-        $empregador_id = $_SESSION['id_empresa'];
-        $estado = "ACTIVO";
+    $nome_admin = $_SESSION['nome_admin'];
+    if(isset($_POST['nome'])){
+        $nome = $_POST['nome_admin'];
+        $email = $_POST['email_admin'];
+        $senha = $_POST['senha_admin'];
         $data = date("Y-m-d H-i-s");
 
         $pdo = new PDO('mysql:host='.$host.';dbname='.$name,$user,$pass);
-		$sql = "INSERT INTO vaga (titulo_vaga,salario_base,experiencia_requerida,dataadd_vaga,descricao_vaga,estado_vaga,empregador_idempregador) values (?,?,?,?,?,?,?)";
+		$sql = "INSERT INTO admin (nome_admin,email_admin,senha_admin,data_add) values (?,?,?,?)";
 		$stmt = $pdo->prepare($sql);
-		$stmt->execute([$titulo,$salario,$experiencia,$data,$descricao,$estado,$empregador_id]);
+		$stmt->execute([$nome,$email,$senha,$data]);
 
 
     }
@@ -35,7 +32,7 @@
     <meta name="keywords" content="">
 
     <!-- Title Page-->
-    <title>Publicar Vagas</title>
+    <title>Cadastrar Admin</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -68,7 +65,7 @@
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
                         <a class="logo" href="index.html">
-                            ARQSOFT
+                            <img src="../assets/img/logos/logo.png">
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
                             <span class="hamburger-box">
@@ -88,7 +85,7 @@
                         </li>
                         <li>
                             <a href="publicar_vaga.php">
-                                <i class="far fa-check-square"></i>Publicar Vaga</a>
+                                <i class="far fa-check-square"></i>Adicionar Admin</a>
                         </li>
                     </ul>
                 </div>
@@ -100,7 +97,7 @@
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="dashboard.php">
-                    ARQSOFT
+                    ARKSOFT
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
@@ -112,7 +109,7 @@
                         </li>
                         <li class="active">
                             <a href="publicar_vaga.php">
-                                <i class="far fa-check-square"></i>Publicar Vaga</a>
+                                <i class="far fa-check-square"></i>Adicionar Admin</a>
                         </li>
                     </ul>
                 </nav>
@@ -252,7 +249,7 @@
                                             <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#"><?=$nome_da_empresa?></a>
+                                            <a class="js-acc-btn" href="#"><?=$nome_admin?></a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
@@ -263,7 +260,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#"><?=$nome_da_empresa?></a>
+                                                        <a href="#"><?=$nome_admin?></a>
                                                     </h5>
                                                     <span class="email"></span>
                                                 </div>
@@ -303,47 +300,30 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="card">
-                                    <div class="card-header">Publicar Vaga</div>
+                                    <div class="card-header">Adicionar Admin</div>
                                     <div class="card-body">
                                         <div class="card-title">
-                                            <h3 class="text-center title-2">Postar Vaga</h3>
+                                            <h3 class="text-center title-2">Adicionar Admin</h3>
                                         </div>
                                         <hr>
                                         <form action="" method="post" novalidate="novalidate">
                                             <div class="form-group">
-                                                <label for="cc-payment" class="control-label mb-1">Título</label>
+                                                <label for="cc-payment" class="control-label mb-1">Nome</label>
                                                 <input id="cc-pament" name="titulo" type="text" class="form-control" aria-required="true" aria-invalid="false">
                                             </div>
                                             <div class="form-group has-success">
-                                                <label for="cc-name" class="control-label mb-1">Descrição</label>
-                                                <textarea class="form-control" name="descricao"></textarea>
+                                                <label for="cc-name" name="nome_admin" class="control-label mb-1">Email</label>
+                                                <input type="email" name="email_admin" classs="form-control">
                                             </div>
                                             <div class="form-group">
-                                                <label for="cc-name" class="control-label mb-1">Experiência Requirida</label>
-                                                <select name="experiencia" class="form-control">
-
-                                                    <option>1 ANO</option>
-                                                    <option>2 ANOS</option>
-                                                    <option>3 ANOS</option>
-                                                    <option>4 ANOS</option>
-                                                    <option>5 ANOS</option>
-                                                    <option>6 ANOS</option>
-                                                    <option>7 ANOS</option>
-                                                    <option>8 ANOS</option>
-                                                    <option>9 ANOS</option>
-                                                    <option>10 ANOS</option>
-
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="cc-name" class="control-label mb-1">Salário Base</label>
-                                                <input class="form-control" type="number" name="salario">
+                                                <label for="cc-name" class="control-label mb-1">Senha</label>
+                                                <input class="form-control" type="password" name="senha_admin">
                                             </div>
                                             
                                             <div>
                                                 <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block">
                                                     
-                                                    <span id="payment-button-amount">Publicar</span>
+                                                    <span id="payment-button-amount">Adicionar</span>
                                                 </button>
                                             </div>
                                         </form>

@@ -73,6 +73,5 @@
     if($_GET['page'] == "contactos"){
         include 'includes/contactoscontent.php';
     }
-
     include 'includes/footer.php';
 ?>
