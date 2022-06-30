@@ -62,7 +62,7 @@
 
             <div class="contact_information">
 
-              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 adress_cont">
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 adress_cont">
 
                 <div class="information_bottom text_align_center">
 
@@ -80,7 +80,7 @@
 
               </div>
 
-              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 adress_cont">
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 adress_cont">
 
                 <div class="information_bottom text_align_center">
 
@@ -98,7 +98,7 @@
 
               </div>
 
-              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 adress_cont">
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 adress_cont">
 
                 <div class="information_bottom text_align_center">
 
@@ -116,17 +116,17 @@
 
               </div>
 
-              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 adress_cont">
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 adress_cont">
 
                 <div class="information_bottom text_align_center">
 
-                  <div class="icon_bottom"> <i class="fa fa-envelope" aria-hidden="true"></i> </div>
+                  <div class="icon_bottom"> <i class="fa fa-whatsapp" aria-hidden="true"></i> </div>
 
                   <div class="info_cont">
 
-                    <h4 style="font-family: arial;">geral@arksoft.ao</h4>
+                    <h4 style="font-family: arial;">WhatsApp - +244 914 392 576</h4>
 
-                    <p style="font-family: arial;">Suporte online 24/7</p>
+                    <a style="font-family: arial;" href="https://wa.me/244914392576">Clique para convesar connosco!</a>
 
                   </div>
 
