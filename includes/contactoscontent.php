@@ -14,7 +14,7 @@
 
             <div class="title-holder-cell text-left">
 
-              <h1 class="page-title">Whatsapp: +244 937 183 941</h1>
+              <a href="https://wa.me/244914392576">Fale connosco no WhatsApp!</a>
 
               
 
