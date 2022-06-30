@@ -14,7 +14,7 @@
 
             <div class="title-holder-cell text-left">
 
-              <a class="text-white" style="font-size: 20px" href="https://wa.me/244914392576">Fale connosco no WhatsApp!</a>
+              <p style="color:white, font-size:20px">Fale connosco no WhatsApp</p>
 
               
 
@@ -91,6 +91,24 @@
                     <h4 style="font-family: arial;">+244 923 543 515</h4>
 
                     <p style="font-family: arial;">Seg - Sáb 8:00 - 18:00</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 adress_cont">
+
+                <div class="information_bottom text_align_center">
+
+                  <div class="icon_bottom"> <i class="fa fa-envelope" aria-hidden="true"></i> </div>
+
+                  <div class="info_cont">
+
+                    <h4 style="font-family: arial;">geral@arksoft.ao</h4>
+
+                    <p style="font-family: arial;">Suporte online 24/7</p>
 
                   </div>
 
