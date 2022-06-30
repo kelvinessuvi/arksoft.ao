@@ -14,7 +14,7 @@
 
             <div class="title-holder-cell text-left">
 
-              <p style="color:white, font-size:20px">Fale connosco no WhatsApp</p>
+              <p style="color:white;font-size:40px">Fale connosco!</p>
 
               
 
