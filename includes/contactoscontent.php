@@ -14,7 +14,7 @@
 
             <div class="title-holder-cell text-left">
 
-              <a class="title" href="https://wa.me/244914392576">Fale connosco no WhatsApp!</a>
+              <a class="text-white" style="font-size: 20px" href="https://wa.me/244914392576">Fale connosco no WhatsApp!</a>
 
               
 
