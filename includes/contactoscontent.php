@@ -124,9 +124,9 @@
 
                   <div class="info_cont">
 
-                    <h4 style="font-family: arial;">WhatsApp - +244 914 392 576</h4>
+                    <h4 style="font-family: arial;">+244 914 392 576</h4>
 
-                    <a style="font-family: arial;" href="https://wa.me/244914392576">Clique para convesar connosco!</a>
+                    <a style="font-family: arial;color:darkgreen;" href="https://wa.me/244914392576">Clique para convesar connosco!</a>
 
                   </div>
 
