@@ -181,7 +181,6 @@
 
                 <li><a class="<?=$hover_r?>" href="page.php?page=recruit">Recrutamento</a></li>
                 <li> 
-                  <div class="">
                   <a class="dropdown-toggle hover" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Empresa
                   </a>
@@ -190,7 +189,6 @@
                     <a class="dropdown-item <?=$hover_b?>" href="#">Sobre Nós</a>
                     <a class="dropdown-item <?=$hover_a?>" href="#">Acção Social</a>
                     <a class="<?=$hover_c?> hover" href="page.php?page=contactos">Contactos</a>
-                  </div>
                   </div>
                </li>
 
