@@ -181,7 +181,7 @@
 
                 <li><a class="<?=$hover_r?>" href="page.php?page=recruit">Recrutamento</a></li>
                 <li> 
-                  <div class="dropdown show hover">
+                  <div class="">
                   <a class="dropdown-toggle hover" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Empresa
                   </a>
