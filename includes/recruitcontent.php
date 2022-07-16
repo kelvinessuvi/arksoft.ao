@@ -59,6 +59,12 @@
 
                     <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
+                      <input class="field_custom" name="morada_candidato" placeholder="Morada" type="text">
+
+                    </div>
+
+                    <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
                       <input class="field_custom" name="telefone_candidato" placeholder="Telefone" type="tel">
 
                     </div>
