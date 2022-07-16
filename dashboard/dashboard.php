@@ -95,6 +95,7 @@
             $nome = $linha4["nome_candidato"];
             $email = $linha4["email_candidato"];
             $telefone = $linha4["telefone_candidato"];
+            $morada_candidato = $linha4["morada_candidato"];
             $cv = $linha4["cv_candidato"];
             $data = $linha4["data_candidato"];
             $resultado_candidatos .="
@@ -104,6 +105,7 @@
                   <td>".utf8_encode($nome)."</td>
                   <td>$email</td>
                   <td>$telefone</td>
+                  <td>$morada_candidato</td>
                   <td><a href='../uploads/$cv'>$cv</a></td>
                   <td>$data</td>
             </tr>
@@ -391,6 +393,7 @@
                                                 <th>Nome</th>
                                                 <th>Email</th>
                                                 <th>Telefone</th>
+                                                <th>Morada</th>
                                                 <th>CV</th>
                                                 <th>Data</th>
                                             </tr>
