@@ -145,6 +145,12 @@
 <script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
 
 <script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script>
+
+  $('.dropdown-toggle').dropdown()
+
+
+</script>
 
 </body>
 

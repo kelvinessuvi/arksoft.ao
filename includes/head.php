@@ -40,7 +40,36 @@
   <link rel="stylesheet" type="text/css" href="assets/revolution/css/layers.css" />
 
   <link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css" />
+  <style>
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
 
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 12px 16px;
+      z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown a{
+      color:black;
+      font-size:14px;
+      font-weight: 600;
+      padding-top: 15px;
+      padding-right: 18px;
+      padding-bottom: 15px;
+      padding-left: 18px;
+      font-family: Raleway, sans-serif;
+    }
+  </style>
 </head>
 <body id="default_theme">
   
@@ -181,15 +210,14 @@
 
                 <li><a class="<?=$hover_r?>" href="page.php?page=recruit">Recrutamento</a></li>
                 <li> 
-                  <a class="dropdown-toggle hover" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Empresa
-                  </a>
-
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item <?=$hover_b?>" href="#">Sobre Nós</a>
-                    <a class="dropdown-item <?=$hover_a?>" href="#">Acção Social</a>
+                <div class="dropdown">
+                  <a href="#" class="hover">EMPRESAS</a>
+                  <div class="dropdown-content">
+                    <a class="hover <?=$hover_b?>" href="#">Sobre Nós</a>
+                    <a class="hover <?=$hover_a?>" href="#">Acção Social</a>
                     <a class="<?=$hover_c?> hover" href="page.php?page=contactos">Contactos</a>
                   </div>
+                </div>  
                </li>
 
 
