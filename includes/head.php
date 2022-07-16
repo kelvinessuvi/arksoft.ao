@@ -56,11 +56,14 @@
       padding: 12px 16px;
       z-index: 1;
     }
+    .dropdown-content .hover{
+      padding:20px;
+    }
 
     .dropdown:hover .dropdown-content {
       display: block;
     }
-    .dropdown a{
+    .dropdown .empresas{
       color:black;
       font-size:14px;
       font-weight: 600;
@@ -204,18 +207,19 @@
                 <li> <a class=" hover" href="page.php?page=sobre">Empresa</a>
 
                 </li>-->
-
-                <li><a class="<?=$hover_r?>" href="page.php?page=recruit">Recrutamento</a></li>
                 <li> 
                 <div class="dropdown">
-                  <a href="#" class="hover">EMPRESAS</a>
+                  <a href="#" class="empresas hover">EMPRESA</a>
                   <div class="dropdown-content">
-                    <a class="hover <?=$hover_b?>" href="#">Sobre Nós</a>
-                    <a class="hover <?=$hover_a?>" href="#">Acção Social</a>
+                    <a class="<?=$hover_b?> hover" href="page.php?page=sobre">Sobre Nós</a><br>
+                    <a class="<?=$hover_a?> hover" href="page.php?page=resocial">Acção Social</a><br>
                     <a class="<?=$hover_c?> hover" href="page.php?page=contactos">Contactos</a>
                   </div>
                 </div>  
                </li>
+
+               <li><a class="<?=$hover_r?>" href="page.php?page=recruit">Recrutamento</a></li>
+                
 
 
               </ul>
