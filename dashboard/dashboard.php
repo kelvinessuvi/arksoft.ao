@@ -95,7 +95,7 @@
             $nome = $linha4["nome_candidato"];
             $email = $linha4["email_candidato"];
             $telefone = $linha4["telefone_candidato"];
-            $morada_candidato = $linha4["morada_candidato"];
+            $morada_candidato = $linha4["morada"];
             $cv = $linha4["cv_candidato"];
             $data = $linha4["data_candidato"];
             $resultado_candidatos .="
