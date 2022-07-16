@@ -44,6 +44,7 @@
     .dropdown {
       position: relative;
       display: inline-block;
+      padding-top:15px;
     }
 
     .dropdown-content {
@@ -63,10 +64,6 @@
       color:black;
       font-size:14px;
       font-weight: 600;
-      padding-top: 20px;
-      padding-right: 18px;
-      padding-bottom: 15px;
-      padding-left: 18px;
       font-family: Raleway, sans-serif;
     }
   </style>
