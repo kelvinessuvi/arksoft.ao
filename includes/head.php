@@ -169,32 +169,31 @@
 
                 <li><a class="<?=$hover_s?> hover" href="page.php?page=servicos">Serviços</a></li>
 
-                <!--<li><a class="<?=//$hover_a?> hover" href="page.php?page=resocial">Acção Social</a></li>
+                <!--<li><a class=" hover" href="page.php?page=resocial">Acção Social</a></li>
 
                 <li><a href="#">Softwares</a></li>
 
-                <li><a class="<?=//$hover_r?>" href="page.php?page=recruit">Recrutamento</a></li>
+                <li><a class="" href="page.php?page=recruit">Recrutamento</a></li>
 
-                <li> <a class="<?=//$hover_b?> hover" href="page.php?page=sobre">Empresa</a>
+                <li> <a class=" hover" href="page.php?page=sobre">Empresa</a>
 
                 </li>-->
+
+                <li><a class="<?=$hover_r?>" href="page.php?page=recruit">Recrutamento</a></li>
                 <li> 
-                <div class="dropdown show">
-                  <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <div class="dropdown show hover">
+                  <a class="dropdown-toggle hover" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Empresa
                   </a>
 
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">Sobre Nós</a>
-                    <a class="dropdown-item" href="#">Acção Social</a>
-                    <a class="dropdown-item" href="#">Recrutamento</a>
+                    <a class="dropdown-item <?=$hover_b?>" href="#">Sobre Nós</a>
+                    <a class="dropdown-item <?=$hover_a?>" href="#">Acção Social</a>
+                    <a class="<?=$hover_c?> hover" href="page.php?page=contactos">Contactos</a>
                   </div>
-                </div>
-                </li>
+                  </div>
+               </li>
 
-                <li> <a class="<?=$hover_c?> hover" href="page.php?page=contactos">Contactos</a>
-
-                </li>
 
               </ul>
 
