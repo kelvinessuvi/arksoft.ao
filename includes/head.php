@@ -53,15 +53,25 @@
       background-color: #f9f9f9;
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      padding: 12px 16px;
       z-index: 1;
     }
     .dropdown-content .hover{
-      padding:20px;
+      padding:15px;
+    }
+    .dcontent{
+      width:100%;
+      height:100%;
+      padding:15px;
     }
 
     .dropdown:hover .dropdown-content {
       display: block;
+    }
+    .dropdown .dropdown-content .dcontent:hover{
+      height:100%;
+      width:100%;
+      border-bottom:2px solid blue;
+      color:black;
     }
     .dropdown .empresas{
       color:black;
@@ -183,7 +193,7 @@
                     }
                     if($_GET['page'] == "sobre"){
                         $hover_b .="active";
-                    }
+                    }       
                     if($_GET['page'] == "contactos"){
                         $hover_c .="active";
                     }
@@ -211,9 +221,9 @@
                 <div class="dropdown">
                   <a href="#" class="empresas hover">EMPRESA</a>
                   <div class="dropdown-content">
-                    <a class="<?=$hover_b?> hover" href="page.php?page=sobre">Sobre Nós</a><br>
-                    <a class="<?=$hover_a?> hover" href="page.php?page=resocial">Acção Social</a><br>
-                    <a class="<?=$hover_c?> hover" href="page.php?page=contactos">Contactos</a>
+                    <div class="dcontent"><a class="<?=$hover_b?> hover" href="page.php?page=sobre">Sobre Nós</a></div>
+                    <div class="dcontent"><a class="<?=$hover_a?> hover" href="page.php?page=resocial">Acção Social</a></div>
+                    <div class="dcontent"><a class="<?=$hover_c?> hover" href="page.php?page=contactos">Contactos</a></div>
                   </div>
                 </div>  
                </li>
