@@ -14,13 +14,12 @@ h2::after{
 }
 a.active{
     color: #156c9d !important;
+    
 }
 a.hover:hover{
     color: #156c9d !important;
-}
-
-@media screen a {
     
 }
+
 
 /** ADD YOUR AWESOME CODES HERE **/

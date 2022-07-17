@@ -71,13 +71,17 @@
       height:100%;
       width:100%;
       border-bottom:2px solid blue;
-      color:black;
+      color:#0056b3;
+      cursor:pointer;
     }
     .dropdown .empresas{
       color:black;
       font-size:14px;
       font-weight: 600;
       font-family: Raleway, sans-serif;
+    }
+    .divactive{
+      border-bottom: 2px solid blue !important;
     }
   </style>
 </head>
@@ -180,25 +184,25 @@
                     $hover_b = "";
                     $hover_c = "";
                     if($_GET['page'] == "servicos"){
-                        $hover_s .="active";
+                        $hover_s .="active divactive";
                     }
                     if($_GET['page'] == "home"){
-                        $hover .="active";
+                        $hover .="active divactive";
                     }
                     if($_GET['page'] == "resocial"){
-                        $hover_a .="active";
+                        $hover_a .="active divactive";
                     }
                     if($_GET['page'] == "recruit"){
-                        $hover_r .="active";
+                        $hover_r .="active divactive";
                     }
                     if($_GET['page'] == "sobre"){
-                        $hover_b .="active";
+                        $hover_b .="active divactive";
                     }       
                     if($_GET['page'] == "contactos"){
-                        $hover_c .="active";
+                        $hover_c .="active divactive";
                     }
                     if($_SERVER['REQUEST_URI'] === '/arksoft.ao/page.php'){
-                        $hover .= "active";
+                        $hover .= "active divactive";
                     }
                 
                 ?>
@@ -221,9 +225,9 @@
                 <div class="dropdown">
                   <a href="#" class="empresas hover">EMPRESA</a>
                   <div class="dropdown-content">
-                    <div class="dcontent"><a class="<?=$hover_b?> hover" href="page.php?page=sobre">Sobre Nós</a></div>
-                    <div class="dcontent"><a class="<?=$hover_a?> hover" href="page.php?page=resocial">Acção Social</a></div>
-                    <div class="dcontent"><a class="<?=$hover_c?> hover" href="page.php?page=contactos">Contactos</a></div>
+                    <a href="page.php?page=sobre" class="<?=$hover_b?> hover"><div class="dcontent">Sobre Nós</div></a>
+                    <a class="<?=$hover_a?> hover" href="page.php?page=resocial"><div class="dcontent">Acção Social</div></a>
+                    <a class="<?=$hover_c?> hover" href="page.php?page=contactos"><div class="dcontent">Contactos</div></a>
                   </div>
                 </div>  
                </li>
