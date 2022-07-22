@@ -28,6 +28,7 @@
     }
 
     .dropdown-content {
+      float:left;
       display: none;
       position: absolute;
       background-color: #f9f9f9;
