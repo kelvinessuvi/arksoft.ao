@@ -25,6 +25,7 @@
       position: relative;
       display: inline-block;
       padding-top:15px;
+      transition: 1s;
     }
 
     .dropdown-content {
@@ -46,7 +47,6 @@
 
     .dropdown:hover .dropdown-content {
       display: block;
-      transition: 1s;
     }
     .dropdown .dropdown-content .dcontent:hover{
       height:100%;
