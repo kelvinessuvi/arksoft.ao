@@ -45,9 +45,7 @@
       padding:15px;
     }
 
-    .dropdown:hover .dropdown-content {
-      display: block;
-      height:160px !important;
+    .dropdown:hover .dropdown-content{
       transition: 1s !important;
     }
     .dropdown .dropdown-content .dcontent:hover{
