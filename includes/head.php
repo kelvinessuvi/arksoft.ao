@@ -25,8 +25,6 @@
       position: relative;
       display: inline-block;
       padding-top:15px;
-      transition: 1s !important;
-      height: 500px !important;
     }
 
     .dropdown-content {
@@ -36,6 +34,8 @@
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
+      transition: 1s !important;
+      height: 500px !important;
     }
     .dropdown-content .hover{
       padding:15px;
