@@ -25,8 +25,8 @@
       position: relative;
       display: inline-block;
       padding-top:15px;
-      transition: 1s;
-      height: 100px;
+      transition: 1s !important;
+      height: 100px !important;
     }
 
     .dropdown-content {
@@ -204,7 +204,10 @@
                 <li> <a class=" hover" href="page.php?page=sobre">Empresa</a>
 
                 </li>-->
-                <li> 
+                
+
+               <li><a class="<?=$hover_r?>" href="page.php?page=recruit">Recrutamento</a></li>
+               <li> 
                 <div class="dropdown">
                   <a href="#" class="empresas hover">EMPRESA</a>
                   <div class="dropdown-content">
@@ -214,9 +217,6 @@
                   </div>
                 </div>  
                </li>
-
-               <li><a class="<?=$hover_r?>" href="page.php?page=recruit">Recrutamento</a></li>
-                
 
 
               </ul>
