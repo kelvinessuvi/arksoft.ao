@@ -46,6 +46,7 @@
 
     .dropdown:hover .dropdown-content {
       display: block;
+      transition: 1s;
     }
     .dropdown .dropdown-content .dcontent:hover{
       height:100%;
@@ -53,7 +54,6 @@
       border-bottom:2px solid blue;
       color:#0056b3;
       cursor:pointer;
-      transition: 1s;
     }
     .dropdown .empresas{
       color:black;
