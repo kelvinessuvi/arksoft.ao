@@ -26,6 +26,7 @@
       display: inline-block;
       padding-top:15px;
       transition: 1s;
+      height: 100px;
     }
 
     .dropdown-content {
