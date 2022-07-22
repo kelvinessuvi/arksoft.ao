@@ -47,7 +47,7 @@
 
     .dropdown:hover .dropdown-content {
       display: block;
-      height:160px;
+      height:160px !important;
       transition: 1s !important;
     }
     .dropdown .dropdown-content .dcontent:hover{
