@@ -1,44 +1,24 @@
 <?php?>
 <!DOCTYPE html>
-
 <html lang="pt-PT">
-
 <head>
-
   <meta charset="utf-8">
-
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-
   <title>Arksoft Angola</title>
-
   <meta name="keywords" content="tecnologia,arksoft,arksoftangola,angola,ti,informação,websites,cctv,voip">
-
   <meta name="description" content="Empresa angolana de prestação de serviços tecnológicos.">
-
   <meta name="author" content="ARKSOFT ANGOLA">
-
   <link rel="icon" href="../assets/img/logos/arksoft.png" type="image/gif" />
-
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-
   <link rel="stylesheet" href="assets/css/style.css" />
-
   <link rel="stylesheet" href="assets/css/responsive.css" />
-
   <link rel="stylesheet" href="assets/css/colors1.css" />
-
   <link rel="stylesheet" href="assets/css/custom.css" />
-
   <link rel="stylesheet" href="assets/css/animate.css" />
-
   <link rel="stylesheet" type="text/css" href="assets/revolution/css/settings.css" />
-
   <link rel="stylesheet" type="text/css" href="assets/revolution/css/layers.css" />
-
   <link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css" />
   <style>
     .dropdown {
@@ -73,6 +53,7 @@
       border-bottom:2px solid blue;
       color:#0056b3;
       cursor:pointer;
+      transition: 1s;
     }
     .dropdown .empresas{
       color:black;
