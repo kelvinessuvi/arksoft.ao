@@ -102,7 +102,7 @@
 
       <div class="cprt" style="background: #156c9d;">
 
-        <p>© 2020 ARKSOFT ANGOLA</p>
+        <p>©<?= echo date()?> ARKSOFT ANGOLA</p>
 
       </div>
 
@@ -145,13 +145,5 @@
 <script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
 
 <script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
-<script>
-
-  $('.dropdown-toggle').dropdown()
-
-
-</script>
-
 </body>
-
 </html>
