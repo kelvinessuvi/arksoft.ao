@@ -102,7 +102,7 @@
 
       <div class="cprt" style="background: #156c9d;">
 
-        <p>©<?= echo date()?> ARKSOFT ANGOLA</p>
+        <p>©<?php echo date("Y")?> ARKSOFT ANGOLA</p>
 
       </div>
 
