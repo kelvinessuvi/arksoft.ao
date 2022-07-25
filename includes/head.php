@@ -205,7 +205,7 @@
                 </li>-->
                 
 
-               <li><a class="<?=$hover_r?>" href="page.php?page=recruit">Recrutamento</a></li>
+               <li><a class="<?=$hover_r?> hover" href="page.php?page=recruit">Recrutamento</a></li>
                <li> 
                 <div class="dropdown">
                   <a href="#" class="empresas hover">EMPRESA</a>
